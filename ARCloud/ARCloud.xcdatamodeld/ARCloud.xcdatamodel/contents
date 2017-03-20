@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="ImageTarget" syncable="YES">
+        <attribute name="version" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Model" syncable="YES">
+        <attribute name="downloadStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ImageTarget" positionX="171" positionY="-9" width="128" height="60"/>
+        <element name="Model" positionX="-54" positionY="-9" width="128" height="90"/>
+    </elements>
+</model>

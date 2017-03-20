@@ -7,14 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2835621D5C556B00C145BF /* SampleMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B28355A1D5C556B00C145BF /* SampleMath.cpp */; };
+		9B2835631D5C556B00C145BF /* VideoPlaybackEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B28355D1D5C556B00C145BF /* VideoPlaybackEAGLView.mm */; };
+		9B2835641D5C556B00C145BF /* VideoPlaybackViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B28355F1D5C556B00C145BF /* VideoPlaybackViewController.mm */; };
+		9B2835651D5C556B00C145BF /* VideoPlayerHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B2835611D5C556B00C145BF /* VideoPlayerHelper.mm */; };
+		9B2835751D5C58BC00C145BF /* VP.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835681D5C58BC00C145BF /* VP.png */; };
+		9B2835761D5C58BC00C145BF /* icon_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835691D5C58BC00C145BF /* icon_error.png */; };
+		9B2835771D5C58BC00C145BF /* icon_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356A1D5C58BC00C145BF /* icon_loading.png */; };
+		9B2835781D5C58BC00C145BF /* icon_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356B1D5C58BC00C145BF /* icon_play.png */; };
+		9B2835791D5C58BC00C145BF /* start_large_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356C1D5C58BC00C145BF /* start_large_press.png */; };
+		9B28357A1D5C58BC00C145BF /* start_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356D1D5C58BC00C145BF /* start_large.png */; };
+		9B28357B1D5C58BC00C145BF /* start_medium_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356E1D5C58BC00C145BF /* start_medium_press.png */; };
+		9B28357C1D5C58BC00C145BF /* start_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B28356F1D5C58BC00C145BF /* start_medium.png */; };
+		9B28357D1D5C58BC00C145BF /* VP_about.html in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835701D5C58BC00C145BF /* VP_about.html */; };
+		9B28357E1D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835711D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 */; };
+		9B28357F1D5C58BC00C145BF /* VuforiaSizzleReel_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835721D5C58BC00C145BF /* VuforiaSizzleReel_1.png */; };
+		9B2835801D5C58BC00C145BF /* VuforiaSizzleReel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835731D5C58BC00C145BF /* VuforiaSizzleReel_2.png */; };
+		9B2835811D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835741D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 */; };
+		9B2835881D5C6FA600C145BF /* overwatch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835861D5C6FA600C145BF /* overwatch.jpg */; };
+		9B2835891D5C6FA600C145BF /* overwatch2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2835871D5C6FA600C145BF /* overwatch2.jpg */; };
+		9B28358C1D5C6FFD00C145BF /* overwatch.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B28358A1D5C6FFD00C145BF /* overwatch.dat */; };
+		9B28358D1D5C6FFD00C145BF /* overwatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B28358B1D5C6FFD00C145BF /* overwatch.xml */; };
+		9B3625CD1D3CB63700BE8A09 /* ARCloudNetworkingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3625CC1D3CB63700BE8A09 /* ARCloudNetworkingSession.m */; };
+		9B3CE15C1DAFB192006EB7BD /* ARCloudTarget.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE15A1DAFB192006EB7BD /* ARCloudTarget.dat */; };
+		9B3CE15D1DAFB192006EB7BD /* ARCloudTarget.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CE15B1DAFB192006EB7BD /* ARCloudTarget.xml */; };
+		9B558FFC1DAFAE9D00A5BA7B /* banana.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B558FFB1DAFAE9D00A5BA7B /* banana.txt */; };
+		9B56DE041D82A4DF002DEFB6 /* Wood.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B56DE021D82A4DF002DEFB6 /* Wood.dat */; };
+		9B56DE051D82A4DF002DEFB6 /* Wood.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B56DE031D82A4DF002DEFB6 /* Wood.xml */; };
+		9B69ED9F1D864D5D008E415E /* blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ED9B1D864D5D008E415E /* blue.mp4 */; };
+		9B69EDA01D864D5D008E415E /* green.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ED9C1D864D5D008E415E /* green.mp4 */; };
+		9B69EDA11D864D5D008E415E /* red.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ED9D1D864D5D008E415E /* red.mp4 */; };
+		9B69EDA21D864D5D008E415E /* yellow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B69ED9E1D864D5D008E415E /* yellow.mp4 */; };
+		9B69EDA41D86506B008E415E /* bupt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA31D86506B008E415E /* bupt.jpg */; };
+		9B69EDA71D86692A008E415E /* VideoTarget.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA51D86692A008E415E /* VideoTarget.dat */; };
+		9B69EDA81D86692A008E415E /* VideoTarget.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA61D86692A008E415E /* VideoTarget.xml */; };
+		9BA9D0671D879AA000DE8ABA /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0631D879AA000DE8ABA /* blue.png */; };
+		9BA9D0681D879AA000DE8ABA /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0641D879AA000DE8ABA /* green.png */; };
+		9BA9D0691D879AA000DE8ABA /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0651D879AA000DE8ABA /* red.png */; };
+		9BA9D06A1D879AA000DE8ABA /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0661D879AA000DE8ABA /* yellow.png */; };
+		9BBE30CF1D2AA9E100F64856 /* IT.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30C71D2AA9E100F64856 /* IT.png */; };
+		9BBE30D01D2AA9E100F64856 /* IT_about.html in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30C81D2AA9E100F64856 /* IT_about.html */; };
+		9BBE30D11D2AA9E100F64856 /* StonesAndChips.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30C91D2AA9E100F64856 /* StonesAndChips.dat */; };
+		9BBE30D21D2AA9E100F64856 /* StonesAndChips.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30CA1D2AA9E100F64856 /* StonesAndChips.xml */; };
+		9BBE30D31D2AA9E100F64856 /* Tarmac.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30CB1D2AA9E100F64856 /* Tarmac.dat */; };
+		9BBE30D41D2AA9E100F64856 /* Tarmac.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30CC1D2AA9E100F64856 /* Tarmac.xml */; };
+		9BBE30DD1D2AA9FA00F64856 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30D51D2AA9FA00F64856 /* banana.jpg */; };
+		9BBE30DE1D2AA9FA00F64856 /* building_texture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30D61D2AA9FA00F64856 /* building_texture.jpeg */; };
+		9BBE30DF1D2AA9FA00F64856 /* buildings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30D71D2AA9FA00F64856 /* buildings.txt */; };
+		9BBE30E01D2AA9FA00F64856 /* TextureTeapotBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30D81D2AA9FA00F64856 /* TextureTeapotBlue.png */; };
+		9BBE30E11D2AA9FA00F64856 /* TextureTeapotBrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30D91D2AA9FA00F64856 /* TextureTeapotBrass.png */; };
+		9BBE30E21D2AA9FA00F64856 /* TextureTeapotGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30DA1D2AA9FA00F64856 /* TextureTeapotGreen.png */; };
+		9BBE30E31D2AA9FA00F64856 /* TextureTeapotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30DB1D2AA9FA00F64856 /* TextureTeapotRed.png */; };
+		9BBE30E41D2AA9FA00F64856 /* TextureTeapotYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30DC1D2AA9FA00F64856 /* TextureTeapotYellow.png */; };
+		9BBE30E61D2AAA3200F64856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30E51D2AAA3200F64856 /* Main.storyboard */; };
+		9BBE30E81D2AADF000F64856 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE30E71D2AADF000F64856 /* Info.plist */; };
 		9BC066A61D2A8CD000C3D63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC066A51D2A8CD000C3D63C /* main.m */; };
 		9BC066A91D2A8CD000C3D63C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC066A81D2A8CD000C3D63C /* AppDelegate.m */; };
-		9BC066AC1D2A8CD000C3D63C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC066AB1D2A8CD000C3D63C /* ViewController.m */; };
-		9BC066AF1D2A8CD000C3D63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066AD1D2A8CD000C3D63C /* Main.storyboard */; };
 		9BC066B11D2A8CD000C3D63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066B01D2A8CD000C3D63C /* Assets.xcassets */; };
 		9BC066B41D2A8CD000C3D63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066B21D2A8CD000C3D63C /* LaunchScreen.storyboard */; };
 		9BC066BF1D2A8CD000C3D63C /* ARCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC066BE1D2A8CD000C3D63C /* ARCloudTests.m */; };
 		9BC066CA1D2A8CD000C3D63C /* ARCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC066C91D2A8CD000C3D63C /* ARCloudUITests.m */; };
+		9BC066FF1D2A916E00C3D63C /* Line.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066FB1D2A916E00C3D63C /* Line.fragsh */; };
+		9BC067001D2A916E00C3D63C /* Line.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066FC1D2A916E00C3D63C /* Line.vertsh */; };
+		9BC067011D2A916E00C3D63C /* Simple.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066FD1D2A916E00C3D63C /* Simple.fragsh */; };
+		9BC067021D2A916E00C3D63C /* Simple.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 9BC066FE1D2A916E00C3D63C /* Simple.vertsh */; };
+		9BC067061D2A91DA00C3D63C /* ARCloud3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067051D2A91DA00C3D63C /* ARCloud3DModel.m */; };
+		9BC067091D2A926800C3D63C /* ARCloudSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067081D2A926800C3D63C /* ARCloudSession.mm */; };
+		9BC067611D2A951B00C3D63C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067601D2A951B00C3D63C /* AudioToolbox.framework */; };
+		9BC067631D2A952E00C3D63C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067621D2A952E00C3D63C /* AVFoundation.framework */; };
+		9BC067651D2A953C00C3D63C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067641D2A953C00C3D63C /* CoreMedia.framework */; };
+		9BC067671D2A954600C3D63C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067661D2A954600C3D63C /* CoreMotion.framework */; };
+		9BC067691D2A955200C3D63C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067681D2A955200C3D63C /* CoreFoundation.framework */; };
+		9BC0676B1D2A956100C3D63C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0676A1D2A956100C3D63C /* CoreGraphics.framework */; };
+		9BC0676D1D2A956C00C3D63C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0676C1D2A956C00C3D63C /* Foundation.framework */; };
+		9BC0676F1D2A957300C3D63C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0676E1D2A957300C3D63C /* MediaPlayer.framework */; };
+		9BC067711D2A957F00C3D63C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067701D2A957F00C3D63C /* OpenGLES.framework */; };
+		9BC067731D2A958900C3D63C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067721D2A958900C3D63C /* QuartzCore.framework */; };
+		9BC067751D2A959400C3D63C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067741D2A959400C3D63C /* Security.framework */; };
+		9BC067771D2A959D00C3D63C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067761D2A959D00C3D63C /* SystemConfiguration.framework */; };
+		9BC067791D2A95AA00C3D63C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC067781D2A95AA00C3D63C /* UIKit.framework */; };
+		9BC0677B1D2A95D100C3D63C /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0677A1D2A95D100C3D63C /* libVuforia.a */; };
+		9BC067801D2A9BB000C3D63C /* ARCloudShaderUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0677F1D2A9BB000C3D63C /* ARCloudShaderUtils.mm */; };
+		9BC067831D2A9CA100C3D63C /* ARCouldUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067821D2A9CA100C3D63C /* ARCouldUtils.cpp */; };
+		9BC067881D2A9D1400C3D63C /* Texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067871D2A9D1400C3D63C /* Texture.mm */; };
+		9BC0678D1D2A9DC400C3D63C /* ARCloudEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0678C1D2A9DC400C3D63C /* ARCloudEAGLView.mm */; };
+		9BC067901D2A9F3400C3D63C /* ARCloudViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0678F1D2A9F3400C3D63C /* ARCloudViewController.mm */; };
+		9BC067951D2AA2CF00C3D63C /* PresentMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067921D2AA2CF00C3D63C /* PresentMenuSegue.m */; };
+		9BC067961D2AA2CF00C3D63C /* UnwindMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067941D2AA2CF00C3D63C /* UnwindMenuSegue.m */; };
+		9BC067991D2AA36B00C3D63C /* ARCloudMenuViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067981D2AA36B00C3D63C /* ARCloudMenuViewController.mm */; };
+		9BDBE5921D61A05E00511140 /* GYNotificationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBE5911D61A05E00511140 /* GYNotificationBar.m */; };
+		9BFEAAB31D4F2537006177FF /* ARCloud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEAAB11D4F2537006177FF /* ARCloud.xcdatamodeld */; };
+		FD5A07A7F327E418BDF442F7 /* libPods-ARCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B111E798ADD115ED948333F /* libPods-ARCloud.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +118,127 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B111E798ADD115ED948333F /* libPods-ARCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARCloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB6E7C404DC34999155ACF /* Pods-ARCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARCloud/Pods-ARCloud.release.xcconfig"; sourceTree = "<group>"; };
+		9B28355A1D5C556B00C145BF /* SampleMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleMath.cpp; sourceTree = "<group>"; };
+		9B28355B1D5C556B00C145BF /* SampleMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleMath.h; sourceTree = "<group>"; };
+		9B28355C1D5C556B00C145BF /* VideoPlaybackEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackEAGLView.h; sourceTree = "<group>"; };
+		9B28355D1D5C556B00C145BF /* VideoPlaybackEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoPlaybackEAGLView.mm; sourceTree = "<group>"; };
+		9B28355E1D5C556B00C145BF /* VideoPlaybackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackViewController.h; sourceTree = "<group>"; };
+		9B28355F1D5C556B00C145BF /* VideoPlaybackViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoPlaybackViewController.mm; sourceTree = "<group>"; };
+		9B2835601D5C556B00C145BF /* VideoPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerHelper.h; sourceTree = "<group>"; };
+		9B2835611D5C556B00C145BF /* VideoPlayerHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoPlayerHelper.mm; sourceTree = "<group>"; };
+		9B2835681D5C58BC00C145BF /* VP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VP.png; sourceTree = "<group>"; };
+		9B2835691D5C58BC00C145BF /* icon_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_error.png; sourceTree = "<group>"; };
+		9B28356A1D5C58BC00C145BF /* icon_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_loading.png; sourceTree = "<group>"; };
+		9B28356B1D5C58BC00C145BF /* icon_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_play.png; sourceTree = "<group>"; };
+		9B28356C1D5C58BC00C145BF /* start_large_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_large_press.png; sourceTree = "<group>"; };
+		9B28356D1D5C58BC00C145BF /* start_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_large.png; sourceTree = "<group>"; };
+		9B28356E1D5C58BC00C145BF /* start_medium_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_medium_press.png; sourceTree = "<group>"; };
+		9B28356F1D5C58BC00C145BF /* start_medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_medium.png; sourceTree = "<group>"; };
+		9B2835701D5C58BC00C145BF /* VP_about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VP_about.html; sourceTree = "<group>"; };
+		9B2835711D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VuforiaSizzleReel_1.mp4; sourceTree = "<group>"; };
+		9B2835721D5C58BC00C145BF /* VuforiaSizzleReel_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VuforiaSizzleReel_1.png; sourceTree = "<group>"; };
+		9B2835731D5C58BC00C145BF /* VuforiaSizzleReel_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VuforiaSizzleReel_2.png; sourceTree = "<group>"; };
+		9B2835741D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VuforiaSizzleReel_2.mp4; sourceTree = "<group>"; };
+		9B2835861D5C6FA600C145BF /* overwatch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overwatch.jpg; sourceTree = "<group>"; };
+		9B2835871D5C6FA600C145BF /* overwatch2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overwatch2.jpg; sourceTree = "<group>"; };
+		9B28358A1D5C6FFD00C145BF /* overwatch.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = overwatch.dat; sourceTree = "<group>"; };
+		9B28358B1D5C6FFD00C145BF /* overwatch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = overwatch.xml; sourceTree = "<group>"; };
+		9B3625CB1D3CB63700BE8A09 /* ARCloudNetworkingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudNetworkingSession.h; sourceTree = "<group>"; };
+		9B3625CC1D3CB63700BE8A09 /* ARCloudNetworkingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCloudNetworkingSession.m; sourceTree = "<group>"; };
+		9B3CE15A1DAFB192006EB7BD /* ARCloudTarget.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCloudTarget.dat; sourceTree = "<group>"; };
+		9B3CE15B1DAFB192006EB7BD /* ARCloudTarget.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ARCloudTarget.xml; sourceTree = "<group>"; };
+		9B558FFB1DAFAE9D00A5BA7B /* banana.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = banana.txt; sourceTree = "<group>"; };
+		9B56DE021D82A4DF002DEFB6 /* Wood.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wood.dat; sourceTree = "<group>"; };
+		9B56DE031D82A4DF002DEFB6 /* Wood.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Wood.xml; sourceTree = "<group>"; };
+		9B69ED9B1D864D5D008E415E /* blue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blue.mp4; sourceTree = "<group>"; };
+		9B69ED9C1D864D5D008E415E /* green.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = green.mp4; sourceTree = "<group>"; };
+		9B69ED9D1D864D5D008E415E /* red.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = red.mp4; sourceTree = "<group>"; };
+		9B69ED9E1D864D5D008E415E /* yellow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yellow.mp4; sourceTree = "<group>"; };
+		9B69EDA31D86506B008E415E /* bupt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bupt.jpg; sourceTree = "<group>"; };
+		9B69EDA51D86692A008E415E /* VideoTarget.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoTarget.dat; sourceTree = "<group>"; };
+		9B69EDA61D86692A008E415E /* VideoTarget.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VideoTarget.xml; sourceTree = "<group>"; };
+		9B6F7C851D4F80220028D83D /* CoreDataHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHandler.h; sourceTree = "<group>"; };
+		9BA9D0631D879AA000DE8ABA /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		9BA9D0641D879AA000DE8ABA /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		9BA9D0651D879AA000DE8ABA /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		9BA9D0661D879AA000DE8ABA /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		9BBE30C71D2AA9E100F64856 /* IT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IT.png; sourceTree = "<group>"; };
+		9BBE30C81D2AA9E100F64856 /* IT_about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = IT_about.html; sourceTree = "<group>"; };
+		9BBE30C91D2AA9E100F64856 /* StonesAndChips.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = StonesAndChips.dat; sourceTree = "<group>"; };
+		9BBE30CA1D2AA9E100F64856 /* StonesAndChips.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = StonesAndChips.xml; sourceTree = "<group>"; };
+		9BBE30CB1D2AA9E100F64856 /* Tarmac.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tarmac.dat; sourceTree = "<group>"; };
+		9BBE30CC1D2AA9E100F64856 /* Tarmac.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tarmac.xml; sourceTree = "<group>"; };
+		9BBE30D51D2AA9FA00F64856 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		9BBE30D61D2AA9FA00F64856 /* building_texture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building_texture.jpeg; sourceTree = "<group>"; };
+		9BBE30D71D2AA9FA00F64856 /* buildings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buildings.txt; sourceTree = "<group>"; };
+		9BBE30D81D2AA9FA00F64856 /* TextureTeapotBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotBlue.png; sourceTree = "<group>"; };
+		9BBE30D91D2AA9FA00F64856 /* TextureTeapotBrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotBrass.png; sourceTree = "<group>"; };
+		9BBE30DA1D2AA9FA00F64856 /* TextureTeapotGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotGreen.png; sourceTree = "<group>"; };
+		9BBE30DB1D2AA9FA00F64856 /* TextureTeapotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotRed.png; sourceTree = "<group>"; };
+		9BBE30DC1D2AA9FA00F64856 /* TextureTeapotYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotYellow.png; sourceTree = "<group>"; };
+		9BBE30E51D2AAA3200F64856 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9BBE30E71D2AADF000F64856 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC066A11D2A8CD000C3D63C /* ARCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC066A51D2A8CD000C3D63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BC066A71D2A8CD000C3D63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BC066A81D2A8CD000C3D63C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BC066AA1D2A8CD000C3D63C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BC066AB1D2A8CD000C3D63C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9BC066AE1D2A8CD000C3D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BC066B01D2A8CD000C3D63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BC066B31D2A8CD000C3D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9BC066B51D2A8CD000C3D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC066BA1D2A8CD000C3D63C /* ARCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC066BE1D2A8CD000C3D63C /* ARCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCloudTests.m; sourceTree = "<group>"; };
 		9BC066C01D2A8CD000C3D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC066C51D2A8CD000C3D63C /* ARCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC066C91D2A8CD000C3D63C /* ARCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCloudUITests.m; sourceTree = "<group>"; };
 		9BC066CB1D2A8CD000C3D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC066F81D2A901D00C3D63C /* SampleGLResourceHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleGLResourceHandler.h; sourceTree = "<group>"; };
+		9BC066FB1D2A916E00C3D63C /* Line.fragsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Line.fragsh; sourceTree = "<group>"; };
+		9BC066FC1D2A916E00C3D63C /* Line.vertsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Line.vertsh; sourceTree = "<group>"; };
+		9BC066FD1D2A916E00C3D63C /* Simple.fragsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Simple.fragsh; sourceTree = "<group>"; };
+		9BC066FE1D2A916E00C3D63C /* Simple.vertsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Simple.vertsh; sourceTree = "<group>"; };
+		9BC067031D2A917F00C3D63C /* Quad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quad.h; sourceTree = "<group>"; };
+		9BC067041D2A91DA00C3D63C /* ARCloud3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloud3DModel.h; sourceTree = "<group>"; };
+		9BC067051D2A91DA00C3D63C /* ARCloud3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCloud3DModel.m; sourceTree = "<group>"; };
+		9BC067071D2A926800C3D63C /* ARCloudSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudSession.h; sourceTree = "<group>"; };
+		9BC067081D2A926800C3D63C /* ARCloudSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudSession.mm; sourceTree = "<group>"; };
+		9BC067601D2A951B00C3D63C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9BC067621D2A952E00C3D63C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9BC067641D2A953C00C3D63C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9BC067661D2A954600C3D63C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9BC067681D2A955200C3D63C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9BC0676A1D2A956100C3D63C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BC0676C1D2A956C00C3D63C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BC0676E1D2A957300C3D63C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9BC067701D2A957F00C3D63C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9BC067721D2A958900C3D63C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BC067741D2A959400C3D63C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9BC067761D2A959D00C3D63C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9BC067781D2A95AA00C3D63C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BC0677A1D2A95D100C3D63C /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../../build/lib/arm/libVuforia.a; sourceTree = "<group>"; };
+		9BC0677E1D2A9BB000C3D63C /* ARCloudShaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudShaderUtils.h; sourceTree = "<group>"; };
+		9BC0677F1D2A9BB000C3D63C /* ARCloudShaderUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudShaderUtils.mm; sourceTree = "<group>"; };
+		9BC067811D2A9C5C00C3D63C /* ARCloudUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCloudUtils.h; sourceTree = "<group>"; };
+		9BC067821D2A9CA100C3D63C /* ARCouldUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCouldUtils.cpp; sourceTree = "<group>"; };
+		9BC067841D2A9D1400C3D63C /* Teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
+		9BC067851D2A9D1400C3D63C /* banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = banana.h; sourceTree = "<group>"; };
+		9BC067861D2A9D1400C3D63C /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		9BC067871D2A9D1400C3D63C /* Texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Texture.mm; sourceTree = "<group>"; };
+		9BC0678B1D2A9DC400C3D63C /* ARCloudEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudEAGLView.h; sourceTree = "<group>"; };
+		9BC0678C1D2A9DC400C3D63C /* ARCloudEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudEAGLView.mm; sourceTree = "<group>"; };
+		9BC0678E1D2A9F3400C3D63C /* ARCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudViewController.h; sourceTree = "<group>"; };
+		9BC0678F1D2A9F3400C3D63C /* ARCloudViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudViewController.mm; sourceTree = "<group>"; };
+		9BC067911D2AA2CF00C3D63C /* PresentMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMenuSegue.h; sourceTree = "<group>"; };
+		9BC067921D2AA2CF00C3D63C /* PresentMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMenuSegue.m; sourceTree = "<group>"; };
+		9BC067931D2AA2CF00C3D63C /* UnwindMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnwindMenuSegue.h; sourceTree = "<group>"; };
+		9BC067941D2AA2CF00C3D63C /* UnwindMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnwindMenuSegue.m; sourceTree = "<group>"; };
+		9BC067971D2AA36B00C3D63C /* ARCloudMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudMenuViewController.h; sourceTree = "<group>"; };
+		9BC067981D2AA36B00C3D63C /* ARCloudMenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudMenuViewController.mm; sourceTree = "<group>"; };
+		9BDBE5901D61A05E00511140 /* GYNotificationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYNotificationBar.h; sourceTree = "<group>"; };
+		9BDBE5911D61A05E00511140 /* GYNotificationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNotificationBar.m; sourceTree = "<group>"; };
+		9BECCD0D1D530CDC00F3DEA9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9BFEAAB21D4F2537006177FF /* ARCloud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARCloud.xcdatamodel; sourceTree = "<group>"; };
+		FB16FEACAD13B298191EAEAC /* Pods-ARCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCloud/Pods-ARCloud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +246,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC0677B1D2A95D100C3D63C /* libVuforia.a in Frameworks */,
+				9BC067791D2A95AA00C3D63C /* UIKit.framework in Frameworks */,
+				9BC067771D2A959D00C3D63C /* SystemConfiguration.framework in Frameworks */,
+				9BC067751D2A959400C3D63C /* Security.framework in Frameworks */,
+				9BC067731D2A958900C3D63C /* QuartzCore.framework in Frameworks */,
+				9BC067711D2A957F00C3D63C /* OpenGLES.framework in Frameworks */,
+				9BC0676F1D2A957300C3D63C /* MediaPlayer.framework in Frameworks */,
+				9BC0676D1D2A956C00C3D63C /* Foundation.framework in Frameworks */,
+				9BC0676B1D2A956100C3D63C /* CoreGraphics.framework in Frameworks */,
+				9BC067691D2A955200C3D63C /* CoreFoundation.framework in Frameworks */,
+				9BC067671D2A954600C3D63C /* CoreMotion.framework in Frameworks */,
+				9BC067651D2A953C00C3D63C /* CoreMedia.framework in Frameworks */,
+				9BC067631D2A952E00C3D63C /* AVFoundation.framework in Frameworks */,
+				9BC067611D2A951B00C3D63C /* AudioToolbox.framework in Frameworks */,
+				FD5A07A7F327E418BDF442F7 /* libPods-ARCloud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +281,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4DCDAE8F773D33D63B3A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB16FEACAD13B298191EAEAC /* Pods-ARCloud.debug.xcconfig */,
+				63AB6E7C404DC34999155ACF /* Pods-ARCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B2835591D5C555000C145BF /* VideoPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				9B28355A1D5C556B00C145BF /* SampleMath.cpp */,
+				9B28355B1D5C556B00C145BF /* SampleMath.h */,
+				9B28355C1D5C556B00C145BF /* VideoPlaybackEAGLView.h */,
+				9B28355D1D5C556B00C145BF /* VideoPlaybackEAGLView.mm */,
+				9B28355E1D5C556B00C145BF /* VideoPlaybackViewController.h */,
+				9B28355F1D5C556B00C145BF /* VideoPlaybackViewController.mm */,
+				9B2835601D5C556B00C145BF /* VideoPlayerHelper.h */,
+				9B2835611D5C556B00C145BF /* VideoPlayerHelper.mm */,
+			);
+			name = VideoPlayback;
+			sourceTree = "<group>";
+		};
+		9B2835671D5C58A100C145BF /* VideoPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				9B56DE021D82A4DF002DEFB6 /* Wood.dat */,
+				9B56DE031D82A4DF002DEFB6 /* Wood.xml */,
+				9B69EDA51D86692A008E415E /* VideoTarget.dat */,
+				9B69EDA61D86692A008E415E /* VideoTarget.xml */,
+				9B2835681D5C58BC00C145BF /* VP.png */,
+				9B2835691D5C58BC00C145BF /* icon_error.png */,
+				9B28356A1D5C58BC00C145BF /* icon_loading.png */,
+				9B28356B1D5C58BC00C145BF /* icon_play.png */,
+				9B28356C1D5C58BC00C145BF /* start_large_press.png */,
+				9B28356D1D5C58BC00C145BF /* start_large.png */,
+				9B28356E1D5C58BC00C145BF /* start_medium_press.png */,
+				9B28356F1D5C58BC00C145BF /* start_medium.png */,
+				9B2835701D5C58BC00C145BF /* VP_about.html */,
+				9B2835711D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 */,
+				9B2835721D5C58BC00C145BF /* VuforiaSizzleReel_1.png */,
+				9B2835731D5C58BC00C145BF /* VuforiaSizzleReel_2.png */,
+				9B2835741D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 */,
+				9B2835861D5C6FA600C145BF /* overwatch.jpg */,
+				9B2835871D5C6FA600C145BF /* overwatch2.jpg */,
+				9B69EDA31D86506B008E415E /* bupt.jpg */,
+				9B69ED9B1D864D5D008E415E /* blue.mp4 */,
+				9B69ED9C1D864D5D008E415E /* green.mp4 */,
+				9B69ED9D1D864D5D008E415E /* red.mp4 */,
+				9B69ED9E1D864D5D008E415E /* yellow.mp4 */,
+				9BA9D0631D879AA000DE8ABA /* blue.png */,
+				9BA9D0641D879AA000DE8ABA /* green.png */,
+				9BA9D0651D879AA000DE8ABA /* red.png */,
+				9BA9D0661D879AA000DE8ABA /* yellow.png */,
+				9B28358A1D5C6FFD00C145BF /* overwatch.dat */,
+				9B28358B1D5C6FFD00C145BF /* overwatch.xml */,
+			);
+			name = VideoPlayback;
+			sourceTree = "<group>";
+		};
+		9B3625C31D3C933F00BE8A09 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9B3625CB1D3CB63700BE8A09 /* ARCloudNetworkingSession.h */,
+				9B3625CC1D3CB63700BE8A09 /* ARCloudNetworkingSession.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		9BC066981D2A8CD000C3D63C = {
 			isa = PBXGroup;
 			children = (
+				9BC0677C1D2A95E600C3D63C /* Frameworks */,
 				9BC066A31D2A8CD000C3D63C /* ARCloud */,
 				9BC066BD1D2A8CD000C3D63C /* ARCloudTests */,
 				9BC066C81D2A8CD000C3D63C /* ARCloudUITests */,
 				9BC066A21D2A8CD000C3D63C /* Products */,
+				1E4DCDAE8F773D33D63B3A39 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +376,13 @@
 		9BC066A31D2A8CD000C3D63C /* ARCloud */ = {
 			isa = PBXGroup;
 			children = (
-				9BC066A71D2A8CD000C3D63C /* AppDelegate.h */,
-				9BC066A81D2A8CD000C3D63C /* AppDelegate.m */,
-				9BC066AA1D2A8CD000C3D63C /* ViewController.h */,
-				9BC066AB1D2A8CD000C3D63C /* ViewController.m */,
-				9BC066AD1D2A8CD000C3D63C /* Main.storyboard */,
+				9BFEAAB11D4F2537006177FF /* ARCloud.xcdatamodeld */,
+				9BC066F41D2A8E2800C3D63C /* Classes */,
+				9BC066F51D2A8E4C00C3D63C /* Resources */,
 				9BC066B01D2A8CD000C3D63C /* Assets.xcassets */,
+				9BBE30E51D2AAA3200F64856 /* Main.storyboard */,
 				9BC066B21D2A8CD000C3D63C /* LaunchScreen.storyboard */,
-				9BC066B51D2A8CD000C3D63C /* Info.plist */,
+				9BBE30E71D2AADF000F64856 /* Info.plist */,
 				9BC066A41D2A8CD000C3D63C /* Supporting Files */,
 			);
 			path = ARCloud;
@@ -140,6 +414,136 @@
 			path = ARCloudUITests;
 			sourceTree = "<group>";
 		};
+		9BC066F41D2A8E2800C3D63C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCD0D1D530CDC00F3DEA9 /* Constants.h */,
+				9B3625C31D3C933F00BE8A09 /* Networking */,
+				9BC066A71D2A8CD000C3D63C /* AppDelegate.h */,
+				9BC066A81D2A8CD000C3D63C /* AppDelegate.m */,
+				9BC0678B1D2A9DC400C3D63C /* ARCloudEAGLView.h */,
+				9BC0678C1D2A9DC400C3D63C /* ARCloudEAGLView.mm */,
+				9BC0678E1D2A9F3400C3D63C /* ARCloudViewController.h */,
+				9BC0678F1D2A9F3400C3D63C /* ARCloudViewController.mm */,
+				9B2835591D5C555000C145BF /* VideoPlayback */,
+				9BC066FA1D2A916E00C3D63C /* shaders */,
+				9BC067031D2A917F00C3D63C /* Quad.h */,
+				9BC067041D2A91DA00C3D63C /* ARCloud3DModel.h */,
+				9BC067051D2A91DA00C3D63C /* ARCloud3DModel.m */,
+				9BC067071D2A926800C3D63C /* ARCloudSession.h */,
+				9BC067081D2A926800C3D63C /* ARCloudSession.mm */,
+				9BC0677E1D2A9BB000C3D63C /* ARCloudShaderUtils.h */,
+				9BC0677F1D2A9BB000C3D63C /* ARCloudShaderUtils.mm */,
+				9BC067811D2A9C5C00C3D63C /* ARCloudUtils.h */,
+				9BC067821D2A9CA100C3D63C /* ARCouldUtils.cpp */,
+				9BC066F81D2A901D00C3D63C /* SampleGLResourceHandler.h */,
+				9B6F7C851D4F80220028D83D /* CoreDataHandler.h */,
+				9BC067841D2A9D1400C3D63C /* Teapot.h */,
+				9BC067851D2A9D1400C3D63C /* banana.h */,
+				9BC067861D2A9D1400C3D63C /* Texture.h */,
+				9BC067871D2A9D1400C3D63C /* Texture.mm */,
+				9BC067891D2A9D3600C3D63C /* AppUI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9BC066F51D2A8E4C00C3D63C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BC066F61D2A8E6800C3D63C /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9BC066F61D2A8E6800C3D63C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9B2835671D5C58A100C145BF /* VideoPlayback */,
+				9BBE30D51D2AA9FA00F64856 /* banana.jpg */,
+				9BBE30D61D2AA9FA00F64856 /* building_texture.jpeg */,
+				9BBE30D71D2AA9FA00F64856 /* buildings.txt */,
+				9B558FFB1DAFAE9D00A5BA7B /* banana.txt */,
+				9BBE30D81D2AA9FA00F64856 /* TextureTeapotBlue.png */,
+				9BBE30D91D2AA9FA00F64856 /* TextureTeapotBrass.png */,
+				9BBE30DA1D2AA9FA00F64856 /* TextureTeapotGreen.png */,
+				9BBE30DB1D2AA9FA00F64856 /* TextureTeapotRed.png */,
+				9BBE30DC1D2AA9FA00F64856 /* TextureTeapotYellow.png */,
+				9BC066F71D2A8E8200C3D63C /* ImageTargets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9BC066F71D2A8E8200C3D63C /* ImageTargets */ = {
+			isa = PBXGroup;
+			children = (
+				9BBE30C71D2AA9E100F64856 /* IT.png */,
+				9BBE30C81D2AA9E100F64856 /* IT_about.html */,
+				9BBE30C91D2AA9E100F64856 /* StonesAndChips.dat */,
+				9BBE30CA1D2AA9E100F64856 /* StonesAndChips.xml */,
+				9B3CE15A1DAFB192006EB7BD /* ARCloudTarget.dat */,
+				9B3CE15B1DAFB192006EB7BD /* ARCloudTarget.xml */,
+				9BBE30CB1D2AA9E100F64856 /* Tarmac.dat */,
+				9BBE30CC1D2AA9E100F64856 /* Tarmac.xml */,
+			);
+			name = ImageTargets;
+			sourceTree = "<group>";
+		};
+		9BC066FA1D2A916E00C3D63C /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				9BC066FB1D2A916E00C3D63C /* Line.fragsh */,
+				9BC066FC1D2A916E00C3D63C /* Line.vertsh */,
+				9BC066FD1D2A916E00C3D63C /* Simple.fragsh */,
+				9BC066FE1D2A916E00C3D63C /* Simple.vertsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		9BC0677C1D2A95E600C3D63C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0677A1D2A95D100C3D63C /* libVuforia.a */,
+				9BC067781D2A95AA00C3D63C /* UIKit.framework */,
+				9BC067761D2A959D00C3D63C /* SystemConfiguration.framework */,
+				9BC067741D2A959400C3D63C /* Security.framework */,
+				9BC067721D2A958900C3D63C /* QuartzCore.framework */,
+				9BC067701D2A957F00C3D63C /* OpenGLES.framework */,
+				9BC0676E1D2A957300C3D63C /* MediaPlayer.framework */,
+				9BC0676C1D2A956C00C3D63C /* Foundation.framework */,
+				9BC0676A1D2A956100C3D63C /* CoreGraphics.framework */,
+				9BC067681D2A955200C3D63C /* CoreFoundation.framework */,
+				9BC067661D2A954600C3D63C /* CoreMotion.framework */,
+				9BC067641D2A953C00C3D63C /* CoreMedia.framework */,
+				9BC067621D2A952E00C3D63C /* AVFoundation.framework */,
+				9BC067601D2A951B00C3D63C /* AudioToolbox.framework */,
+				4B111E798ADD115ED948333F /* libPods-ARCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BC067891D2A9D3600C3D63C /* AppUI */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0678A1D2A9D4D00C3D63C /* Transitions */,
+				9BC067971D2AA36B00C3D63C /* ARCloudMenuViewController.h */,
+				9BC067981D2AA36B00C3D63C /* ARCloudMenuViewController.mm */,
+				9BDBE5901D61A05E00511140 /* GYNotificationBar.h */,
+				9BDBE5911D61A05E00511140 /* GYNotificationBar.m */,
+			);
+			name = AppUI;
+			sourceTree = "<group>";
+		};
+		9BC0678A1D2A9D4D00C3D63C /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				9BC067911D2AA2CF00C3D63C /* PresentMenuSegue.h */,
+				9BC067921D2AA2CF00C3D63C /* PresentMenuSegue.m */,
+				9BC067931D2AA2CF00C3D63C /* UnwindMenuSegue.h */,
+				9BC067941D2AA2CF00C3D63C /* UnwindMenuSegue.m */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +551,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BC066CE1D2A8CD100C3D63C /* Build configuration list for PBXNativeTarget "ARCloud" */;
 			buildPhases = (
+				314D20C7304344510E62FEF1 /* [CP] Check Pods Manifest.lock */,
 				9BC0669D1D2A8CD000C3D63C /* Sources */,
 				9BC0669E1D2A8CD000C3D63C /* Frameworks */,
 				9BC0669F1D2A8CD000C3D63C /* Resources */,
+				F50CE5E97590E6A38D9E710B /* [CP] Embed Pods Frameworks */,
+				CA1E874A1072D8B6B0D8D91E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +615,7 @@
 					9BC066A01D2A8CD000C3D63C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 83JLR2XBG3;
+						ProvisioningStyle = Automatic;
 					};
 					9BC066B91D2A8CD000C3D63C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,9 +654,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBE30CF1D2AA9E100F64856 /* IT.png in Resources */,
+				9BA9D06A1D879AA000DE8ABA /* yellow.png in Resources */,
+				9B28357E1D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 in Resources */,
+				9B69EDA81D86692A008E415E /* VideoTarget.xml in Resources */,
+				9B28357A1D5C58BC00C145BF /* start_large.png in Resources */,
+				9B69EDA71D86692A008E415E /* VideoTarget.dat in Resources */,
+				9BC067021D2A916E00C3D63C /* Simple.vertsh in Resources */,
+				9BBE30E01D2AA9FA00F64856 /* TextureTeapotBlue.png in Resources */,
+				9BC066FF1D2A916E00C3D63C /* Line.fragsh in Resources */,
+				9BA9D0681D879AA000DE8ABA /* green.png in Resources */,
+				9B56DE041D82A4DF002DEFB6 /* Wood.dat in Resources */,
+				9BBE30D21D2AA9E100F64856 /* StonesAndChips.xml in Resources */,
+				9B2835781D5C58BC00C145BF /* icon_play.png in Resources */,
+				9BBE30DF1D2AA9FA00F64856 /* buildings.txt in Resources */,
+				9B558FFC1DAFAE9D00A5BA7B /* banana.txt in Resources */,
+				9B2835761D5C58BC00C145BF /* icon_error.png in Resources */,
+				9BBE30D01D2AA9E100F64856 /* IT_about.html in Resources */,
+				9BC067001D2A916E00C3D63C /* Line.vertsh in Resources */,
+				9B2835891D5C6FA600C145BF /* overwatch2.jpg in Resources */,
+				9B28357B1D5C58BC00C145BF /* start_medium_press.png in Resources */,
+				9BBE30E31D2AA9FA00F64856 /* TextureTeapotRed.png in Resources */,
+				9BC067011D2A916E00C3D63C /* Simple.fragsh in Resources */,
+				9B2835801D5C58BC00C145BF /* VuforiaSizzleReel_2.png in Resources */,
+				9B28358D1D5C6FFD00C145BF /* overwatch.xml in Resources */,
+				9BBE30D41D2AA9E100F64856 /* Tarmac.xml in Resources */,
+				9B28357C1D5C58BC00C145BF /* start_medium.png in Resources */,
+				9BBE30E11D2AA9FA00F64856 /* TextureTeapotBrass.png in Resources */,
+				9B3CE15D1DAFB192006EB7BD /* ARCloudTarget.xml in Resources */,
+				9B2835881D5C6FA600C145BF /* overwatch.jpg in Resources */,
+				9BBE30E61D2AAA3200F64856 /* Main.storyboard in Resources */,
+				9B2835751D5C58BC00C145BF /* VP.png in Resources */,
+				9BA9D0671D879AA000DE8ABA /* blue.png in Resources */,
+				9BA9D0691D879AA000DE8ABA /* red.png in Resources */,
+				9B2835771D5C58BC00C145BF /* icon_loading.png in Resources */,
+				9B69EDA21D864D5D008E415E /* yellow.mp4 in Resources */,
+				9B28357F1D5C58BC00C145BF /* VuforiaSizzleReel_1.png in Resources */,
 				9BC066B41D2A8CD000C3D63C /* LaunchScreen.storyboard in Resources */,
+				9B69EDA01D864D5D008E415E /* green.mp4 in Resources */,
+				9B3CE15C1DAFB192006EB7BD /* ARCloudTarget.dat in Resources */,
+				9BBE30D11D2AA9E100F64856 /* StonesAndChips.dat in Resources */,
+				9B28357D1D5C58BC00C145BF /* VP_about.html in Resources */,
+				9B69EDA41D86506B008E415E /* bupt.jpg in Resources */,
+				9BBE30DD1D2AA9FA00F64856 /* banana.jpg in Resources */,
+				9B2835811D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 in Resources */,
+				9BBE30E41D2AA9FA00F64856 /* TextureTeapotYellow.png in Resources */,
+				9B56DE051D82A4DF002DEFB6 /* Wood.xml in Resources */,
+				9BBE30DE1D2AA9FA00F64856 /* building_texture.jpeg in Resources */,
 				9BC066B11D2A8CD000C3D63C /* Assets.xcassets in Resources */,
-				9BC066AF1D2A8CD000C3D63C /* Main.storyboard in Resources */,
+				9B28358C1D5C6FFD00C145BF /* overwatch.dat in Resources */,
+				9B69ED9F1D864D5D008E415E /* blue.mp4 in Resources */,
+				9B69EDA11D864D5D008E415E /* red.mp4 in Resources */,
+				9BBE30E21D2AA9FA00F64856 /* TextureTeapotGreen.png in Resources */,
+				9B2835791D5C58BC00C145BF /* start_large_press.png in Resources */,
+				9BBE30E81D2AADF000F64856 /* Info.plist in Resources */,
+				9BBE30D31D2AA9E100F64856 /* Tarmac.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +728,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		314D20C7304344510E62FEF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1E874A1072D8B6B0D8D91E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCloud/Pods-ARCloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50CE5E97590E6A38D9E710B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCloud/Pods-ARCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BC0669D1D2A8CD000C3D63C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC066AC1D2A8CD000C3D63C /* ViewController.m in Sources */,
+				9B2835621D5C556B00C145BF /* SampleMath.cpp in Sources */,
+				9BC067991D2AA36B00C3D63C /* ARCloudMenuViewController.mm in Sources */,
+				9B2835651D5C556B00C145BF /* VideoPlayerHelper.mm in Sources */,
+				9B2835631D5C556B00C145BF /* VideoPlaybackEAGLView.mm in Sources */,
+				9BC067901D2A9F3400C3D63C /* ARCloudViewController.mm in Sources */,
+				9B3625CD1D3CB63700BE8A09 /* ARCloudNetworkingSession.m in Sources */,
+				9BC067091D2A926800C3D63C /* ARCloudSession.mm in Sources */,
+				9BC067061D2A91DA00C3D63C /* ARCloud3DModel.m in Sources */,
+				9BC067881D2A9D1400C3D63C /* Texture.mm in Sources */,
+				9BC067801D2A9BB000C3D63C /* ARCloudShaderUtils.mm in Sources */,
 				9BC066A91D2A8CD000C3D63C /* AppDelegate.m in Sources */,
+				9BFEAAB31D4F2537006177FF /* ARCloud.xcdatamodeld in Sources */,
+				9BC067831D2A9CA100C3D63C /* ARCouldUtils.cpp in Sources */,
 				9BC066A61D2A8CD000C3D63C /* main.m in Sources */,
+				9BDBE5921D61A05E00511140 /* GYNotificationBar.m in Sources */,
+				9BC067951D2AA2CF00C3D63C /* PresentMenuSegue.m in Sources */,
+				9BC067961D2AA2CF00C3D63C /* UnwindMenuSegue.m in Sources */,
+				9B2835641D5C556B00C145BF /* VideoPlaybackViewController.mm in Sources */,
+				9BC0678D1D2A9DC400C3D63C /* ARCloudEAGLView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +835,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BC066AD1D2A8CD000C3D63C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BC066AE1D2A8CD000C3D63C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BC066B21D2A8CD000C3D63C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,23 +930,67 @@
 		};
 		9BC066CF1D2A8CD100C3D63C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB16FEACAD13B298191EAEAC /* Pods-ARCloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83JLR2XBG3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					../../build/include,
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = ARCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../../build/lib/arm,
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = BUPT.ARCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9BC066D01D2A8CD100C3D63C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AB6E7C404DC34999155ACF /* Pods-ARCloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83JLR2XBG3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					../../build/include,
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = ARCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../../build/lib/arm,
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = BUPT.ARCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -499,6 +1059,7 @@
 				9BC066D01D2A8CD100C3D63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC066D11D2A8CD100C3D63C /* Build configuration list for PBXNativeTarget "ARCloudTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +1068,7 @@
 				9BC066D31D2A8CD100C3D63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC066D41D2A8CD100C3D63C /* Build configuration list for PBXNativeTarget "ARCloudUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,8 +1077,22 @@
 				9BC066D61D2A8CD100C3D63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BFEAAB11D4F2537006177FF /* ARCloud.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BFEAAB21D4F2537006177FF /* ARCloud.xcdatamodel */,
+			);
+			currentVersion = 9BFEAAB21D4F2537006177FF /* ARCloud.xcdatamodel */;
+			path = ARCloud.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9BC066991D2A8CD000C3D63C /* Project object */;
 }
