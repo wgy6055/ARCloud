@@ -41,6 +41,14 @@
 		9B69EDA41D86506B008E415E /* bupt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA31D86506B008E415E /* bupt.jpg */; };
 		9B69EDA71D86692A008E415E /* VideoTarget.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA51D86692A008E415E /* VideoTarget.dat */; };
 		9B69EDA81D86692A008E415E /* VideoTarget.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA61D86692A008E415E /* VideoTarget.xml */; };
+		9B9A5D351EA5FC64004181E0 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2D1EA5FC64004181E0 /* bear.jpg */; };
+		9B9A5D361EA5FC64004181E0 /* bear.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2E1EA5FC64004181E0 /* bear.txt */; };
+		9B9A5D371EA5FC64004181E0 /* bowling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2F1EA5FC64004181E0 /* bowling.jpg */; };
+		9B9A5D381EA5FC64004181E0 /* bowling.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D301EA5FC64004181E0 /* bowling.txt */; };
+		9B9A5D391EA5FC64004181E0 /* cup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D311EA5FC64004181E0 /* cup.jpg */; };
+		9B9A5D3A1EA5FC64004181E0 /* cup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D321EA5FC64004181E0 /* cup.txt */; };
+		9B9A5D3B1EA5FC64004181E0 /* gun.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D331EA5FC64004181E0 /* gun.JPG */; };
+		9B9A5D3C1EA5FC64004181E0 /* gun.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D341EA5FC64004181E0 /* gun.txt */; };
 		9BA9D0671D879AA000DE8ABA /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0631D879AA000DE8ABA /* blue.png */; };
 		9BA9D0681D879AA000DE8ABA /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0641D879AA000DE8ABA /* green.png */; };
 		9BA9D0691D879AA000DE8ABA /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9D0651D879AA000DE8ABA /* red.png */; };
@@ -95,6 +103,7 @@
 		9BC067951D2AA2CF00C3D63C /* PresentMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067921D2AA2CF00C3D63C /* PresentMenuSegue.m */; };
 		9BC067961D2AA2CF00C3D63C /* UnwindMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067941D2AA2CF00C3D63C /* UnwindMenuSegue.m */; };
 		9BC067991D2AA36B00C3D63C /* ARCloudMenuViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BC067981D2AA36B00C3D63C /* ARCloudMenuViewController.mm */; };
+		9BD36E6B1E9F9A3A0090CFCE /* bgd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD36E6A1E9F9A3A0090CFCE /* bgd.jpg */; };
 		9BDBE5921D61A05E00511140 /* GYNotificationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBE5911D61A05E00511140 /* GYNotificationBar.m */; };
 		9BFEAAB31D4F2537006177FF /* ARCloud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEAAB11D4F2537006177FF /* ARCloud.xcdatamodeld */; };
 		FD5A07A7F327E418BDF442F7 /* libPods-ARCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B111E798ADD115ED948333F /* libPods-ARCloud.a */; };
@@ -160,6 +169,14 @@
 		9B69EDA51D86692A008E415E /* VideoTarget.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoTarget.dat; sourceTree = "<group>"; };
 		9B69EDA61D86692A008E415E /* VideoTarget.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VideoTarget.xml; sourceTree = "<group>"; };
 		9B6F7C851D4F80220028D83D /* CoreDataHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHandler.h; sourceTree = "<group>"; };
+		9B9A5D2D1EA5FC64004181E0 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpg; sourceTree = "<group>"; };
+		9B9A5D2E1EA5FC64004181E0 /* bear.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bear.txt; sourceTree = "<group>"; };
+		9B9A5D2F1EA5FC64004181E0 /* bowling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowling.jpg; sourceTree = "<group>"; };
+		9B9A5D301EA5FC64004181E0 /* bowling.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bowling.txt; sourceTree = "<group>"; };
+		9B9A5D311EA5FC64004181E0 /* cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cup.jpg; sourceTree = "<group>"; };
+		9B9A5D321EA5FC64004181E0 /* cup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cup.txt; sourceTree = "<group>"; };
+		9B9A5D331EA5FC64004181E0 /* gun.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gun.JPG; sourceTree = "<group>"; };
+		9B9A5D341EA5FC64004181E0 /* gun.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gun.txt; sourceTree = "<group>"; };
 		9BA9D0631D879AA000DE8ABA /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		9BA9D0641D879AA000DE8ABA /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		9BA9D0651D879AA000DE8ABA /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
@@ -234,6 +251,7 @@
 		9BC067941D2AA2CF00C3D63C /* UnwindMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnwindMenuSegue.m; sourceTree = "<group>"; };
 		9BC067971D2AA36B00C3D63C /* ARCloudMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCloudMenuViewController.h; sourceTree = "<group>"; };
 		9BC067981D2AA36B00C3D63C /* ARCloudMenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCloudMenuViewController.mm; sourceTree = "<group>"; };
+		9BD36E6A1E9F9A3A0090CFCE /* bgd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgd.jpg; sourceTree = "<group>"; };
 		9BDBE5901D61A05E00511140 /* GYNotificationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYNotificationBar.h; sourceTree = "<group>"; };
 		9BDBE5911D61A05E00511140 /* GYNotificationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNotificationBar.m; sourceTree = "<group>"; };
 		9BECCD0D1D530CDC00F3DEA9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -308,6 +326,7 @@
 		9B2835671D5C58A100C145BF /* VideoPlayback */ = {
 			isa = PBXGroup;
 			children = (
+				9BD36E6A1E9F9A3A0090CFCE /* bgd.jpg */,
 				9B56DE021D82A4DF002DEFB6 /* Wood.dat */,
 				9B56DE031D82A4DF002DEFB6 /* Wood.xml */,
 				9B69EDA51D86692A008E415E /* VideoTarget.dat */,
@@ -459,10 +478,8 @@
 			isa = PBXGroup;
 			children = (
 				9B2835671D5C58A100C145BF /* VideoPlayback */,
-				9BBE30D51D2AA9FA00F64856 /* banana.jpg */,
 				9BBE30D61D2AA9FA00F64856 /* building_texture.jpeg */,
 				9BBE30D71D2AA9FA00F64856 /* buildings.txt */,
-				9B558FFB1DAFAE9D00A5BA7B /* banana.txt */,
 				9BBE30D81D2AA9FA00F64856 /* TextureTeapotBlue.png */,
 				9BBE30D91D2AA9FA00F64856 /* TextureTeapotBrass.png */,
 				9BBE30DA1D2AA9FA00F64856 /* TextureTeapotGreen.png */,
@@ -476,6 +493,16 @@
 		9BC066F71D2A8E8200C3D63C /* ImageTargets */ = {
 			isa = PBXGroup;
 			children = (
+				9B9A5D2D1EA5FC64004181E0 /* bear.jpg */,
+				9B9A5D2E1EA5FC64004181E0 /* bear.txt */,
+				9B9A5D2F1EA5FC64004181E0 /* bowling.jpg */,
+				9B9A5D301EA5FC64004181E0 /* bowling.txt */,
+				9B9A5D311EA5FC64004181E0 /* cup.jpg */,
+				9B9A5D321EA5FC64004181E0 /* cup.txt */,
+				9B9A5D331EA5FC64004181E0 /* gun.JPG */,
+				9B9A5D341EA5FC64004181E0 /* gun.txt */,
+				9BBE30D51D2AA9FA00F64856 /* banana.jpg */,
+				9B558FFB1DAFAE9D00A5BA7B /* banana.txt */,
 				9BBE30C71D2AA9E100F64856 /* IT.png */,
 				9BBE30C81D2AA9E100F64856 /* IT_about.html */,
 				9BBE30C91D2AA9E100F64856 /* StonesAndChips.dat */,
@@ -654,6 +681,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9A5D361EA5FC64004181E0 /* bear.txt in Resources */,
+				9B9A5D391EA5FC64004181E0 /* cup.jpg in Resources */,
 				9BBE30CF1D2AA9E100F64856 /* IT.png in Resources */,
 				9BA9D06A1D879AA000DE8ABA /* yellow.png in Resources */,
 				9B28357E1D5C58BC00C145BF /* VuforiaSizzleReel_1.mp4 in Resources */,
@@ -661,16 +690,19 @@
 				9B28357A1D5C58BC00C145BF /* start_large.png in Resources */,
 				9B69EDA71D86692A008E415E /* VideoTarget.dat in Resources */,
 				9BC067021D2A916E00C3D63C /* Simple.vertsh in Resources */,
+				9B9A5D351EA5FC64004181E0 /* bear.jpg in Resources */,
 				9BBE30E01D2AA9FA00F64856 /* TextureTeapotBlue.png in Resources */,
 				9BC066FF1D2A916E00C3D63C /* Line.fragsh in Resources */,
 				9BA9D0681D879AA000DE8ABA /* green.png in Resources */,
 				9B56DE041D82A4DF002DEFB6 /* Wood.dat in Resources */,
 				9BBE30D21D2AA9E100F64856 /* StonesAndChips.xml in Resources */,
 				9B2835781D5C58BC00C145BF /* icon_play.png in Resources */,
+				9B9A5D381EA5FC64004181E0 /* bowling.txt in Resources */,
 				9BBE30DF1D2AA9FA00F64856 /* buildings.txt in Resources */,
 				9B558FFC1DAFAE9D00A5BA7B /* banana.txt in Resources */,
 				9B2835761D5C58BC00C145BF /* icon_error.png in Resources */,
 				9BBE30D01D2AA9E100F64856 /* IT_about.html in Resources */,
+				9B9A5D371EA5FC64004181E0 /* bowling.jpg in Resources */,
 				9BC067001D2A916E00C3D63C /* Line.vertsh in Resources */,
 				9B2835891D5C6FA600C145BF /* overwatch2.jpg in Resources */,
 				9B28357B1D5C58BC00C145BF /* start_medium_press.png in Resources */,
@@ -678,7 +710,9 @@
 				9BC067011D2A916E00C3D63C /* Simple.fragsh in Resources */,
 				9B2835801D5C58BC00C145BF /* VuforiaSizzleReel_2.png in Resources */,
 				9B28358D1D5C6FFD00C145BF /* overwatch.xml in Resources */,
+				9B9A5D3A1EA5FC64004181E0 /* cup.txt in Resources */,
 				9BBE30D41D2AA9E100F64856 /* Tarmac.xml in Resources */,
+				9B9A5D3C1EA5FC64004181E0 /* gun.txt in Resources */,
 				9B28357C1D5C58BC00C145BF /* start_medium.png in Resources */,
 				9BBE30E11D2AA9FA00F64856 /* TextureTeapotBrass.png in Resources */,
 				9B3CE15D1DAFB192006EB7BD /* ARCloudTarget.xml in Resources */,
@@ -696,6 +730,7 @@
 				9BBE30D11D2AA9E100F64856 /* StonesAndChips.dat in Resources */,
 				9B28357D1D5C58BC00C145BF /* VP_about.html in Resources */,
 				9B69EDA41D86506B008E415E /* bupt.jpg in Resources */,
+				9B9A5D3B1EA5FC64004181E0 /* gun.JPG in Resources */,
 				9BBE30DD1D2AA9FA00F64856 /* banana.jpg in Resources */,
 				9B2835811D5C58BC00C145BF /* VuforiaSizzleReel_2.mp4 in Resources */,
 				9BBE30E41D2AA9FA00F64856 /* TextureTeapotYellow.png in Resources */,
@@ -705,6 +740,7 @@
 				9B28358C1D5C6FFD00C145BF /* overwatch.dat in Resources */,
 				9B69ED9F1D864D5D008E415E /* blue.mp4 in Resources */,
 				9B69EDA11D864D5D008E415E /* red.mp4 in Resources */,
+				9BD36E6B1E9F9A3A0090CFCE /* bgd.jpg in Resources */,
 				9BBE30E21D2AA9FA00F64856 /* TextureTeapotGreen.png in Resources */,
 				9B2835791D5C58BC00C145BF /* start_large_press.png in Resources */,
 				9BBE30E81D2AADF000F64856 /* Info.plist in Resources */,
