@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="cup" size="250.000000 167.236328" />
+    <ImageTarget name="gun" size="250.000000 166.748047" />
+    <ImageTarget name="bowling" size="250.000000 187.500000" />
+    <ImageTarget name="bear" size="250.000000 162.250000" />
+    <ImageTarget name="banana" size="250.000000 180.419922" />
+  </Tracking>
+</QCARConfig>

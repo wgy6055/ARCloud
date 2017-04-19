@@ -26,7 +26,7 @@
 {
     self = [super init];
     if (self) {
-        _path = [[NSBundle mainBundle] pathForResource:name ofType:@"txt"];
+        _path = [[NSBundle mainBundle] pathForResource:[name stringByReplacingOccurrencesOfString:@".jpg" withString:@""] ofType:@"txt"];
 //        _path = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/%@.txt", name]];
     }
     return self;

@@ -224,10 +224,10 @@ namespace {
 }
 
 - (void) load3DModelWithImageName:(NSString *)imageName {
-//    showModel = [[ARCloud3DModel alloc] initWithTxtResourceName:imageName];
-//    showingModelName = imageName;
-    showModel = [[ARCloud3DModel alloc] initWithTxtResourceName:@"banana"];
-    showingModelName = @"monkey.jpg";
+    showModel = [[ARCloud3DModel alloc] initWithTxtResourceName:imageName];
+    showingModelName = imageName;
+//    showModel = [[ARCloud3DModel alloc] initWithTxtResourceName:@"banana"];
+//    showingModelName = @"monkey.jpg";
     [showModel read];
     self.isLoaded = YES;
 }
@@ -295,14 +295,14 @@ namespace {
         glUseProgram(shaderProgramID);
         
         NSString *imageName = [[NSString stringWithCString:trackable.getName() encoding:[NSString defaultCStringEncoding]]stringByAppendingString:@".jpg"];
-//        if ((![showingModelName isEqualToString:imageName] || !self.isLoaded) && [self.session.dicDownloadStatus[imageName] isEqualToString:@"status_done"]) {
-//            [self load3DModelWithImageName:imageName];
-//        }
-        if ([imageName isEqualToString:@"monkey.jpg"] && (![showingModelName isEqualToString:imageName] || !self.isLoaded)) {
+        if ((![showingModelName isEqualToString:imageName] || !self.isLoaded)) { //  && [self.session.dicDownloadStatus[imageName] isEqualToString:@"status_done"]
             [self load3DModelWithImageName:imageName];
         }
+//        if ([imageName isEqualToString:@"banana.jpg"] && (![showingModelName isEqualToString:imageName] || !self.isLoaded)) {
+//            [self load3DModelWithImageName:imageName];
+//        }
         
-        if ([imageName isEqualToString:@"monkey.jpg"]) {
+        if ([imageName isEqualToString:imageName]) {
             [self drawWithModel:showModel withProjection:modelViewProjection];
         }
         

@@ -268,21 +268,21 @@
     NSArray*paths =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
     NSString*documentsDirectory =[paths objectAtIndex:0];
     
-    NSString*xmlPath =[documentsDirectory stringByAppendingPathComponent:@"ARCloudTarget.xml"];
-    NSString*resourcePathXml =[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ARCloudTarget.xml"];
+    NSString*xmlPath =[documentsDirectory stringByAppendingPathComponent:@"ImageTarget.xml"];
+    NSString*resourcePathXml =[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ImageTarget.xml"];
     if([fileManager fileExistsAtPath:xmlPath]== NO){
         [fileManager copyItemAtPath:resourcePathXml toPath:xmlPath error:&error];
         NSLog(@"%@", [error localizedDescription]);
     }
     
-    NSString*datPath =[documentsDirectory stringByAppendingPathComponent:@"ARCloudTarget.dat"];
-    NSString*resourcePathDat =[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ARCloudTarget.dat"];
+    NSString*datPath =[documentsDirectory stringByAppendingPathComponent:@"ImageTarget.dat"];
+    NSString*resourcePathDat =[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ImageTarget.dat"];
     if([fileManager fileExistsAtPath:datPath]== NO){
         [fileManager copyItemAtPath:resourcePathDat toPath:datPath error:&error];
         NSLog(@"%@", [error localizedDescription]);
     }
 
-    NSString *strPath = [documentsDirectory stringByAppendingPathComponent:@"ARCloudTarget.xml"];
+    NSString *strPath = [documentsDirectory stringByAppendingPathComponent:@"ImageTarget.xml"];
     dataSetARCloud = [self loadObjectTrackerDataSet:strPath];
     if (dataSetARCloud == NULL) {
         NSLog(@"Failed to load datasets");
@@ -554,7 +554,7 @@
 - (void)updateImageTarget {
     NSArray *paths =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
     NSString *documentsDirectory =[paths objectAtIndex:0];
-    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"ARCloudTarget.xml"];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"ImageTarget.xml"];
     dataSetARCloud = [self loadObjectTrackerDataSet:path];
     if (dataSetARCloud == NULL) {
         NSLog(@"Failed to load datasets");
