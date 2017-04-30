@@ -71,6 +71,7 @@
     eaglView = [[ARCloudEAGLView alloc] initWithFrame:viewFrame appSession:vapp];
     
     self.session = eaglView.session;
+    [self.session setCurrentController:self];
     
     [self setView:eaglView];
     

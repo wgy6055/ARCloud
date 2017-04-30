@@ -10,10 +10,18 @@
 #import "CoreDataHandler.h"
 
 @class AFHTTPRequestOperation;
+@class UIViewController;
 
 @protocol GYNotificationBarProtocol <NSObject>
 
 - (void)showBarWithString:(NSString *)string;
+
+@end
+
+@protocol ARCloudNetworkingSessionDelegate <NSObject>
+
+- (void)pauseTimer;
+- (void)resumTimer;
 
 @end
 
@@ -24,6 +32,8 @@
 @property (strong, nonatomic) NSMutableDictionary *dicDownloadStatus;
 
 @property (weak, nonatomic) id<GYNotificationBarProtocol> delegate;
+@property (weak, nonatomic) id<ARCloudNetworkingSessionDelegate> timerDelegate;
+@property (weak, nonatomic) UIViewController *currentController;
 
 /**
  向服务器发送所有Model的ID。

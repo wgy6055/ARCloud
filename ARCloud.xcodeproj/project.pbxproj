@@ -41,6 +41,7 @@
 		9B69EDA41D86506B008E415E /* bupt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA31D86506B008E415E /* bupt.jpg */; };
 		9B69EDA71D86692A008E415E /* VideoTarget.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA51D86692A008E415E /* VideoTarget.dat */; };
 		9B69EDA81D86692A008E415E /* VideoTarget.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B69EDA61D86692A008E415E /* VideoTarget.xml */; };
+		9B801E6C1EB5A5E900B3F60A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B801E6B1EB5A5E900B3F60A /* Reachability.m */; };
 		9B9A5D351EA5FC64004181E0 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2D1EA5FC64004181E0 /* bear.jpg */; };
 		9B9A5D361EA5FC64004181E0 /* bear.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2E1EA5FC64004181E0 /* bear.txt */; };
 		9B9A5D371EA5FC64004181E0 /* bowling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A5D2F1EA5FC64004181E0 /* bowling.jpg */; };
@@ -171,6 +172,8 @@
 		9B69EDA51D86692A008E415E /* VideoTarget.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = VideoTarget.dat; sourceTree = "<group>"; };
 		9B69EDA61D86692A008E415E /* VideoTarget.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VideoTarget.xml; sourceTree = "<group>"; };
 		9B6F7C851D4F80220028D83D /* CoreDataHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHandler.h; sourceTree = "<group>"; };
+		9B801E6A1EB5A5E900B3F60A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9B801E6B1EB5A5E900B3F60A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		9B9A5D2D1EA5FC64004181E0 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpg; sourceTree = "<group>"; };
 		9B9A5D2E1EA5FC64004181E0 /* bear.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bear.txt; sourceTree = "<group>"; };
 		9B9A5D2F1EA5FC64004181E0 /* bowling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowling.jpg; sourceTree = "<group>"; };
@@ -368,10 +371,20 @@
 		9B3625C31D3C933F00BE8A09 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				9B801E691EB5A5E900B3F60A /* Reachability */,
 				9B3625CB1D3CB63700BE8A09 /* ARCloudNetworkingSession.h */,
 				9B3625CC1D3CB63700BE8A09 /* ARCloudNetworkingSession.m */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		9B801E691EB5A5E900B3F60A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9B801E6A1EB5A5E900B3F60A /* Reachability.h */,
+				9B801E6B1EB5A5E900B3F60A /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		9BC066981D2A8CD000C3D63C = {
@@ -839,6 +852,7 @@
 				9BFEAAB31D4F2537006177FF /* ARCloud.xcdatamodeld in Sources */,
 				9BC067831D2A9CA100C3D63C /* ARCouldUtils.cpp in Sources */,
 				9BC066A61D2A8CD000C3D63C /* main.m in Sources */,
+				9B801E6C1EB5A5E900B3F60A /* Reachability.m in Sources */,
 				9BDBE5921D61A05E00511140 /* GYNotificationBar.m in Sources */,
 				9BC067951D2AA2CF00C3D63C /* PresentMenuSegue.m in Sources */,
 				9BC067961D2AA2CF00C3D63C /* UnwindMenuSegue.m in Sources */,

@@ -74,7 +74,7 @@ namespace {
 
 @end
 
-@interface ARCloudEAGLView()
+@interface ARCloudEAGLView() <ARCloudNetworkingSessionDelegate>
 
 @property (assign, nonatomic) BOOL isLoaded;
 //@property (strong, nonatomic) NSDictionary *dicRelationClient;
@@ -170,8 +170,28 @@ namespace {
 //    dispatch_resume(timer);
     
     self.coreDataHandler = self.session;
+    self.session.timerDelegate = self;
     
     return self;
+}
+
+#pragma mark - ARCloudNetworkingSessionDelegate
+- (void)pauseTimer {
+    [self freeTimer];
+}
+
+- (void)resumTimer {
+        // 每20秒向服务器发送一次ModelIDs
+        NSTimeInterval period = 20.0;
+        extern dispatch_queue_t queueCoreData;
+        queueCoreData = dispatch_queue_create("queue", NULL);
+        timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queueCoreData);
+        dispatch_source_set_timer(timer, dispatch_walltime(NULL, 0), period * NSEC_PER_SEC, 0); //每20秒执行
+        dispatch_source_set_event_handler(timer, ^{
+            [NSThread sleepForTimeInterval:5.0f];
+            [self.session sendModelIDsToServer];
+        });
+        dispatch_resume(timer);
 }
 
 - (void)freeTimer {

@@ -8,6 +8,7 @@
 
 #import "ARCloudNetworkingSession.h"
 #import "AFNetworking.h"
+#import "Reachability.h"
 #import "AppDelegate.h"
 
 static NSString * const kModelEntityName = @"Model";
@@ -30,6 +31,8 @@ static NSString * const STATUS_DONE = @"status_done";
 @property (assign, nonatomic) BOOL datResult;
 @property (assign, nonatomic) BOOL xmlResult;
 @property (strong, nonatomic) NSNumber *getVersion;
+
+@property (strong, nonatomic) Reachability *reachability;
 
 @end
 
@@ -104,6 +107,13 @@ static NSString * const STATUS_DONE = @"status_done";
     return _xmlResult;
 }
 
+- (Reachability *)reachability {
+    if (!_reachability) {
+        _reachability = [Reachability reachabilityWithHostName:@"www.baidu.com"];
+    }
+    return _reachability;
+}
+
 - (void)downloadFileWithOption:(NSDictionary *)paramDic
                       withURL:(NSString *)requestURL
                      savedPath:(NSString *)savedPath
@@ -170,28 +180,66 @@ static NSString * const STATUS_DONE = @"status_done";
                       }
                       
                       if (![self.dicRelationClient[theImageName] isEqualToNumber:theModelID] && (self.dicDownloadStatus[theImageName] == nil ? YES : [STATUS_FREE isEqualToString:self.dicDownloadStatus[theImageName]])) {
-                          NSString *savedPath = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/%@.txt", theImageName]];
-                          NSNumberFormatter* numberFormatter = [[NSNumberFormatter alloc] init];
-                          if ([dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]) {
-                              self.dicDownloadStatus[theImageName] = STATUS_DOWNLOADING;
-                              [self downloadFileWithOption:@{@"userid":@"123123"}
-                                                   withURL:[dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]
-                                                 savedPath:savedPath
-                                                withMethod:@"GET"
-                                           downloadSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-                                               [self.dicRelationClient setValue:theModelID
-                                                                         forKey:theImageName];
-                                               self.arrayModelID = [[self.dicRelationClient allValues] mutableCopy];
-                                               NSLog(@"Model下载成功：%@", theImageName);
-                                               [self.delegate showBarWithString:[NSString stringWithFormat:@"Model下载成功：%@", theImageName]];
-                                               self.dicDownloadStatus[theImageName] = STATUS_DONE;
-                                           }
-                                           downloadFailure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                               self.dicDownloadStatus[theImageName] = STATUS_FREE;
-                                           }
-                                                  progress:^(float progress) {
-                                                      
-                                                  }];
+                          // 检测网络环境
+                          if ([self.reachability currentReachabilityStatus] == ReachableViaWWAN || [self.reachability currentReachabilityStatus] == ReachableVia3G || [self.reachability currentReachabilityStatus] == ReachableVia2G) {
+                              UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"当前网络环境将产生大量下载流量，是否下载AR资源？" preferredStyle:UIAlertControllerStyleAlert];
+                              [alert addAction:[UIAlertAction actionWithTitle:@"是" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                                  // 开始下载
+                                  NSString *savedPath = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/%@.txt", theImageName]];
+                                  NSNumberFormatter* numberFormatter = [[NSNumberFormatter alloc] init];
+                                  if ([dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]) {
+                                      self.dicDownloadStatus[theImageName] = STATUS_DOWNLOADING;
+                                      [self downloadFileWithOption:@{@"userid":@"123123"}
+                                                           withURL:[dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]
+                                                         savedPath:savedPath
+                                                        withMethod:@"GET"
+                                                   downloadSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                                       [self.dicRelationClient setValue:theModelID
+                                                                                 forKey:theImageName];
+                                                       self.arrayModelID = [[self.dicRelationClient allValues] mutableCopy];
+                                                       NSLog(@"Model下载成功：%@", theImageName);
+                                                       [self.delegate showBarWithString:[NSString stringWithFormat:@"Model下载成功：%@", theImageName]];
+                                                       self.dicDownloadStatus[theImageName] = STATUS_DONE;
+                                                   }
+                                                   downloadFailure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                       self.dicDownloadStatus[theImageName] = STATUS_FREE;
+                                                   }
+                                                          progress:^(float progress) {
+                                                              
+                                                          }];
+                                  }
+                              }]];
+                              [alert addAction:[UIAlertAction actionWithTitle:@"否" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                                  [self.timerDelegate pauseTimer];
+                              }]];
+                              [self.currentController presentViewController:alert animated:YES completion:^{
+                                  [self.timerDelegate pauseTimer];
+                              }];
+                          } else if ([self.reachability currentReachabilityStatus] == ReachableViaWiFi) {
+                              // 开始下载
+                              NSString *savedPath = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/%@.txt", theImageName]];
+                              NSNumberFormatter* numberFormatter = [[NSNumberFormatter alloc] init];
+                              if ([dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]) {
+                                  self.dicDownloadStatus[theImageName] = STATUS_DOWNLOADING;
+                                  [self downloadFileWithOption:@{@"userid":@"123123"}
+                                                       withURL:[dicModelURL objectForKey:[numberFormatter stringFromNumber:theModelID]]
+                                                     savedPath:savedPath
+                                                    withMethod:@"GET"
+                                               downloadSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                                   [self.dicRelationClient setValue:theModelID
+                                                                             forKey:theImageName];
+                                                   self.arrayModelID = [[self.dicRelationClient allValues] mutableCopy];
+                                                   NSLog(@"Model下载成功：%@", theImageName);
+                                                   [self.delegate showBarWithString:[NSString stringWithFormat:@"Model下载成功：%@", theImageName]];
+                                                   self.dicDownloadStatus[theImageName] = STATUS_DONE;
+                                               }
+                                               downloadFailure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                   self.dicDownloadStatus[theImageName] = STATUS_FREE;
+                                               }
+                                                      progress:^(float progress) {
+                                                          
+                                                      }];
+                              }
                           }
                       }
                   }
